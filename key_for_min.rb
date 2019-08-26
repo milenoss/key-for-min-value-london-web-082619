@@ -8,7 +8,7 @@ if name_hash == {}
 else
   min = nil 
 name_hash.each do |key,value| 
-  if min == nil && min > value
+  if min == nil || min > value
     min = value
   
    result = value
