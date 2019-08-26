@@ -7,8 +7,7 @@ if name_hash == {}
   return nil 
 name_hash.each do |key,value| 
     value
-    if value < 
-    end
+  end
   end
 end
 
