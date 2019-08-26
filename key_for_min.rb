@@ -4,8 +4,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
 new_hash = {}
-name_hash.each do |key,value| 
+name_hash.sort_by |key,value| 
   
-  binding.pry
   end
 end
