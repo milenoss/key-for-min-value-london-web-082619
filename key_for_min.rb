@@ -7,7 +7,8 @@ if name_hash == {}
   return nil 
 else
 name_hash.each do |key,value| 
-    value
+   result = value
+  if result 
     binding.pry
   end
   end
