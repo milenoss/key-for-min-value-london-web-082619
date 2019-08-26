@@ -3,15 +3,20 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  new_hash = {}
+if test == {}
+  nil 
+else 
 name_hash.each do |key,value| 
    value 
+    end
   end
 end
 
-def key_for_min_value(test)
-  if test == {}
-    nil 
-  end
-end
-      
+# def key_for_min_value(test)
+#   if test == {}
+#     nil 
+#   end
+# end
+
+# def key_for_min_value(min)
+  
