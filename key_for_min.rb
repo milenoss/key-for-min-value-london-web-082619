@@ -11,4 +11,9 @@ end
 
 def key_for_min_value(test)
   if test == {}
-    test.sort_
+    nil 
+  test = test.sort_by { |k, v| k}
+  test[0][0]
+  end
+end
+      
