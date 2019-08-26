@@ -11,6 +11,7 @@ else
 name_hash.each do |key,value| 
   if min == nil || min > value
     min = value
+    min_key = key
     
         end
         
