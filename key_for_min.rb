@@ -10,9 +10,11 @@ name_hash.each do |key,value|
      nil 
    elsif 
     value > new_hash 
-  key
+   new_hash = name_hash.sort_by {|k, v| k}
+       name_hash[0][0]
  else
-    
+    new_hash = name_hash.sort_by{k,v| v}
+    name_hash[0]
   end
 end
 
