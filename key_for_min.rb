@@ -8,7 +8,7 @@ name_hash.each do |key,value|
    value 
    if value == new_hash
      nil 
-   elsif 
+   else
     value > new_hash 
    new_hash = name_hash.sort_by {|k, v| k}
        name_hash[0][0]
