@@ -8,6 +8,7 @@ if name_hash == {}
 else
 name_hash.each do |key,value| 
     value
+    binding.pry
   end
   end
 end
