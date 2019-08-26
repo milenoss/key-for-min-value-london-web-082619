@@ -9,7 +9,7 @@ else
 name_hash.each do |key,value| 
    result = value
   if result 
-    binding.pry
+   
   end
   end
 end
